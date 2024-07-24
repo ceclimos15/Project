@@ -1,0 +1,209 @@
+*{
+    margin:0
+    padding:0
+}
+
+.main{
+    width: 100%;
+    background-image: url(photo\ 1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.navbar{
+    width: 1200px;
+    height: 75%;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo{
+    color:goldenrod;
+    font-size: x-large;
+    font-family: sans-serif;
+    padding-left: 25px;
+    padding-top: 5px;
+
+}
+
+.menu{
+    width: 400px;
+    color: white;
+    float:left ;
+    height: 70px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+ul li{
+    list-style: none;
+    margin-left: 49px;
+    margin-top: 17px;
+    font-size: 14px;
+}
+ul li a{
+    color: white;
+    text-decoration: dashed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+
+}
+ul li a:hover{
+    border-bottom: 1px solid;
+    color: goldenrod;
+ }
+
+ .search{
+    float: left;
+    margin-left: 200px;
+    background: transparent; 
+}
+
+
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid goldenrod;
+    margin-top: 20px;
+    color: white;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: goldenrod;
+    color: white;
+    border: 2px solid goldenrod;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.button:hover{
+    background-color: black;
+}
+
+.srch:focus{
+    outline: none;
+}
+.button:focus{
+    outline: none;
+}
+
+.content{
+    margin-top: -250px;
+    margin-left: 80px;
+
+}
+
+.content h1{
+    font:bold;
+    width: 300px;
+}
+.cn{
+    width: 100px;
+    height: 25px;
+    margin-left: 75px;
+    color: white;
+    background-color: goldenrod;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+
+.cn a{
+    transition: 0.3 ease;
+}
+.cn:hover{
+    background-color:black;
+}
+
+.form{
+    margin-left: 750px;
+    margin-top: -250px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position:absolute;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form h2{
+    text-align: center;
+    margin-top: 1px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: goldenrod;
+}
+
+.form input{
+    margin: left 10px; 
+    background-color: transparent;
+    border: 0.5px solid goldenrod;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    
+}
+
+::placeholder{
+    color: white;
+}
+
+.btnn{
+    background-color: goldenrod;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+.btnn:hover{
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+
+.link{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.liw{
+    text-align: center;
+}
+.form1{
+    color: white;
+    width: 15;
+    padding-left: 48px;
+    font-size: 27px;
+}
+
+form1 i{
+    color: white;
+
+}
